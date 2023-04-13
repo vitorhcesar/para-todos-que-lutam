@@ -8,10 +8,6 @@ export const ContextProvider = ({ children }) => {
 
   const [currentID, setCurrentID] = useState(undefined);
 
-  function turnFirstDisplay(){
-    setFwDisplay(false);
-  }
-
   function turnOffWindowDisplay(){
     if(currentID == 0){
       document.getElementById('one').style.display = 'none';
@@ -36,5 +32,5 @@ export const ContextProvider = ({ children }) => {
     }
   }
 
-  return <MainContext.Provider value={{fwdisplay, setFwDisplay, turnFirstDisplay, toggleOnFolderDisplay, turnOffWindowDisplay}}>{children}</MainContext.Provider>;
+  return <MainContext.Provider value={{fwdisplay, setFwDisplay, toggleOnFolderDisplay, turnOffWindowDisplay}}>{children}</MainContext.Provider>;
 };

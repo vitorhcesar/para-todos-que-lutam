@@ -3,13 +3,13 @@ import React, { useContext } from 'react'
 
 const SimpleWindow = ({ title, content }) => {
 
-  const { turnFirstDisplay } = useContext(MainContext);
+  const { setFwDisplay } = useContext(MainContext);
 
   return (
     <div className='simple-window'>
         <header>
             <nav className='sw-btns'>
-                <button onClick={() => turnFirstDisplay()} className='sw-btn-red'></button>
+                <button onClick={() => setFwDisplay(false)} className='sw-btn-red'></button>
                 <button className='sw-btn-yellow'></button>
                 <button className='sw-btn-blue'></button>
             </nav>

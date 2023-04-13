@@ -12,9 +12,9 @@ const Desktop = () => {
             <Folder index={0} title='Sobre o projeto' />
             <Folder index={1} title='Dados do dev' />
             <Folder index={2} title='Devocional' />
-            <FolderWindow index='one' title='Sobre o projeto' />
-            <FolderWindow index='two' title='Dados do dev' />
-            <FolderWindow index='three' title='Devocional' />
+            <FolderWindow contentID='content-one' index='one' title='Sobre o projeto' />
+            <FolderWindow contentID='content-two' index='two' title='Dados do dev' />
+            <FolderWindow contentID='content-three' index='three' title='Devocional' />
         </section>
     </section>
   );

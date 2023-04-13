@@ -1,7 +1,8 @@
 import { MainContext } from '@/contexts/MainContext/mainContext';
 import React, { useContext } from 'react'
+import Content from '../WindowContent/content';
 
-const FolderWindow = ({ title, index }) => {
+const FolderWindow = ({ title, index, contentID }) => {
 
     const { turnOffWindowDisplay } = useContext(MainContext);
 
@@ -16,7 +17,7 @@ const FolderWindow = ({ title, index }) => {
                 <p className='fw-title'>{title}</p>
             </header>
             <main>
-                <p>Eu sou um conteúdo</p>
+                <Content index={contentID} />
             </main>
         </div>
     );

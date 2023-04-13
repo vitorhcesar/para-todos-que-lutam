@@ -237,6 +237,11 @@
   font-size: 15px;
 }
 
+.folder-window main {
+  width: 100%;
+  height: 90%;
+}
+
 .fw-btns {
   display: flex;
   gap: .5rem;
@@ -291,4 +296,65 @@
   color: #000000;
 
   height: 100%;
+}
+
+/* CONTENTS OF FOLDERS */
+
+#content-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: #1A090D;
+
+  width: 80%;
+  height: 90%;
+}
+
+.social-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  
+  color: #FFF8F0;
+  background: #c9648133;
+
+  padding: 1.5rem 3rem;
+  border-radius: .75rem;
+}
+
+.social-card img {
+  height: 150px;
+  border-radius: 50%;
+}
+
+.social-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: .5rem;
+} .social-card-content h1 {
+  font-size: 1.7rem;
+  font-weight: normal;
+} .social-card-content div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+} .social-card-content button {
+  background: transparent;
+  outline: none;
+  border: none;
+} .social-card-content svg {
+  background: #6814102f;
+  padding: .5rem;
+  border-radius: .75rem;
+
+  transition: .5s;
+} .social-card-content svg:hover {
+  background: #6814107a;
+  padding: .7rem;
+  border-radius: .75rem;
+  cursor: pointer;
 }
