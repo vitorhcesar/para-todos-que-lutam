@@ -16,4 +16,4 @@ Além de ter o objetivo de ajudar toda uma comunidade, sou estudante de front-en
 - Fazer conteúdos das pastas
 - Mudar icones das pastas
 - Colocar data e horário assim como existem em SO (Sistemas Operacionais)
-- Linkar meu [Portofolio](https://github.com/yondv/portfolio).
+- Linkar meu [Portfolio](https://github.com/yondv/portfolio).
