@@ -32,5 +32,9 @@ export const ContextProvider = ({ children }) => {
     }
   }
 
-  return <MainContext.Provider value={{fwdisplay, setFwDisplay, toggleOnFolderDisplay, turnOffWindowDisplay}}>{children}</MainContext.Provider>;
+  function openURL(link){
+    open(link, '_blank');
+  }
+
+  return <MainContext.Provider value={{fwdisplay, setFwDisplay, toggleOnFolderDisplay, turnOffWindowDisplay, openURL}}>{children}</MainContext.Provider>;
 };

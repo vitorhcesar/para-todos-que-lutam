@@ -305,6 +305,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 3rem;
 
   background: #1A090D;
 
@@ -334,6 +335,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* align-items: center; */
   gap: .5rem;
 } .social-card-content h1 {
   font-size: 1.7rem;
@@ -347,9 +349,10 @@
   outline: none;
   border: none;
 } .social-card-content svg {
-  background: #6814102f;
   padding: .5rem;
   border-radius: .75rem;
+
+  filter: invert(100%);
 
   transition: .5s;
 } .social-card-content svg:hover {
@@ -357,4 +360,35 @@
   padding: .7rem;
   border-radius: .75rem;
   cursor: pointer;
+} .portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 8rem;
+  
+  transition: .5s;
+} .portfolio:hover {
+  cursor: pointer;
+
+  text-decoration: underline;
+} .portfolio:hover::after {
+  content: url(../public/link.svg);
+
+  filter: invert(100%);
+  position: fixed;
+  margin-left: 7.8rem;
+}
+
+.text-area{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+
+  width: 80%;
+} .text-area img{
+  height: 10rem;
+}  .text-area p{
+  color: #FFF8F0;
 }
