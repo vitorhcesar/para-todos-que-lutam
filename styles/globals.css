@@ -176,6 +176,53 @@
   gap: 1rem;
 }
 
+/* DESKTOP FOOTER */
+#desktop-footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    position: absolute;
+    top: 45vh;
+    width: 100vw;
+} #timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 2rem;
+    padding: 1rem;
+
+    background: #1a090d52;
+    border-radius: .75rem;
+    box-shadow: 3px 3px 10px #00000059;
+    backdrop-filter: blur(12.5px);
+} #timer p {
+    font-size: 1.3rem;
+
+    color: #FFF8F0;
+    font-family: 'Montserrat';
+} #weather {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    margin-right: 2rem;
+    padding: 1rem;
+
+    background: #1a090d52;
+    border-radius: .75rem;
+    box-shadow: 3px 3px 10px #00000059;
+    backdrop-filter: blur(12.5px);
+
+    color: #FFE0B5;
+} #weather img {
+    height: 50px;
+}
+
 /* FOLDERS */
 
 .folder-desk {
@@ -188,6 +235,9 @@
   border-radius: .55rem;
   border: none;
   background: none;
+
+  min-height: 120px;
+  max-height: 130px;
 
   color: #FFE0B5;
 
@@ -204,6 +254,11 @@
   height: 10vh;
 }
 
+.note-icon{
+    height: 8vh;
+    margin-bottom: 1rem;
+}
+
 .folder-window {
   position: fixed;
 
@@ -214,8 +269,6 @@
   width: 70vw;
   min-width: 350px;
   height: 682px;
-
-  /* margin: 0 5rem; */
 
   background: #767b9136;
   backdrop-filter: blur(12.5px);

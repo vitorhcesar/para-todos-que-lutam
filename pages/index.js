@@ -5,19 +5,19 @@ import React, { useContext } from 'react'
 
 const MeuApp = () => {
 
-  const { fwdisplay } = useContext(MainContext);
+	const { fwdisplay } = useContext(MainContext);
 
-  if(fwdisplay == false){
-    document.getElementById('first-window').style.display = 'none';
-    document.getElementById('desktop').style.display = 'flex';
-  }
+	if(fwdisplay == false){
+        document.getElementById('first-window').style.display = 'none';
+        document.getElementById('desktop').style.display = 'flex';
+	}
 
-  return (
-    <>
-      <FirstWindow />
-      <Desktop />
-    </>
-  );
+	return (
+		<>
+			<FirstWindow />
+			<Desktop />
+		</>
+	);
 };
 
 export default MeuApp;

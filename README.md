@@ -15,5 +15,6 @@ Além de ter o objetivo de ajudar toda uma comunidade, sou estudante de front-en
 - Deixar responsivo
 - Fazer conteúdos das pastas
 - Mudar icones das pastas
-- Colocar data e horário assim como existem em SO (Sistemas Operacionais)
+- Colocar data e horário assim como existem em SO (Sistemas Operacionais) 👌
 - Linkar meu [Portfolio](https://github.com/yondv/portfolio).
+- Colocar sistema de Weather
